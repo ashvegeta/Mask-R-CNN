@@ -8,6 +8,9 @@ Written by Waleed Abdulla
 """
 
 import os
+
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
+
 import datetime
 import re
 import math
